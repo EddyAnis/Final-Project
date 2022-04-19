@@ -65,16 +65,24 @@
 - [x] feature 1 css
 - [x] feature 1 css responsive
 - [x] feature 1 javascript
+**Feature** Added a silde show function on the centre picture in the article  section.
+**Link** [https://eddyanis.github.io/Final-project/articles.html](https://eddyanis.github.io/Final-project/articles.html)
+
 ### Faq.html
 - [x] feature 2 html
 - [x] feature 2 css
 - [x] feature 2 css responsive
 - [x] feature 2 javascript
+**Feature** Added a jquery function to the faq page
+**Link** [https://eddyanis.github.io/Final-project/faq.html](https://eddyanis.github.io/Final-project/faq.html)
+
 ### contactus.html
 - [x] feature 3 html
 - [x] feature 3 css
 - [x] feature 3 css responsive
 - [x] feature 3 javascript
+**Feature** Added form validation to the contact us form. 
+**Link** [https://eddyanis.github.io/Final-project/contact.html](https://eddyanis.github.io/Final-project/contact.html)
 
 ## Viraj
 - [] 
