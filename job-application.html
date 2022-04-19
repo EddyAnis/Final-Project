@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="./css/vishalstyle.css">
+    <link rel="shortcut icon" href="./images/log.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="template/temp.css">
+    <script src="javascript/Vishaljs.js"></script>
+    <script src="javascript/jobapplication.js"></script>
+</head>
+
+<body>
+    <!-- adding clock on the webpage>
+    <!--This is testing github-->
+    <!-- 2nd changes test-->
+
+    <!-- logo on the left with home link -->
+    <header class="cmnHead">
+        <!-- <img src="" alt=""> -->
+        <p>Royal Banking Incorporation</p>
+    </header>
+    <!-- Common navigation -->
+
+
+
+    <nav id="cmnNav">
+        <ul id="nav">
+            <li><a href="">Products and Services</a>
+                <ul>
+                    <li><a href="">Personal Investments</a>
+                        <ul>
+                            <li><a href="">Company Insights</a></li>
+                            <li><a href=""></a>Buy/Sell Advisory</li>
+                        </ul>
+                    </li>
+                    <li><a href="">Credit Cards</a></li>
+                    <li><a href="">Bank Accounts</a></li>
+                </ul>
+            </li>
+            <li><a href="">About Us</a>
+                <ul>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </li>
+            <li><a href="">Contact</a>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact Us Form</a></li>
+                    <li><a href="">Connect with Us</a></li>
+                </ul>
+            </li>
+            <li><a href="">Career</a>
+                <ul>
+                    <li><a href=""></a>Job Description</li>
+                    <li><a href=""></a>Applicants Registration</li>
+                </ul>
+            </li>
+            <li><a href="">Log in</a></li>
+        </ul>
+    </nav>
+    <!-- Common navigation ends -->
+
+    <div id="txt"></div>
+
+    <main>
+
+        <div id="jobForm">
+            <h2>Sign Up</h2>
+            <form class="formJob">
+                <div>
+                    <label> Firstname </label><br>
+                    <input type="text" name="firstname" size="15" placeholder="Firstname" /> <br> <br>
+                </div>
+                <div>
+                    <label> Lastname: </label><br>
+                    <input type="text" name="lastname" size="15" placeholder="Lastname" /> <br> <br>
+                </div>
+                <div>
+                    <label> Email: </label><br>
+                    <input type="email" name="Email" size="25" placeholder="Email" /> <br><br>
+                </div>
+                <div>
+                    <label>Postal Code</label><br>
+                    <input type="text" name="PostalCode" size="6" placeholder="Postal Code" /> <br> <br>
+                </div>
+                <div>
+                    <label> Country of residence </label><br>
+                    <input type="country" name="country" size="25" placeholder="Country of residence" /> <br><br>
+                </div>
+                <div>
+                    <label>State</label><br>
+                    <input type="State" name="State" size="25" placeholder="State" /> <br><br>
+                </div>
+                <div>
+                    <lable>Passoword</lable><br>
+                    <input type="password" name="Password" size="9" placeholder="Passoword"> <br> <br>
+                </div>
+                <div>
+                    <lable>Confirm Passoword</lable><br>
+                    <input type="Confirm Passoword" name="Confirm Passoword" size="11" placeholder="Confirm Passoword">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <lable>Upload Resume</lable><br>
+                    <input id="Resfile" type="file" />
+                    <br> <br>
+                </div>
+                <div>
+                    <label>Job Application for : </label><br>
+                    <select>
+                        <option value=" QA">QA Analyst</option>
+                        <option value="SE">Software Engineer</option>
+                        <option value="Director">Director</option>
+                        <option value="VP">AVP</option>
+                        <option value="Data">Data Analytics</option>
+                        <option value="Engineer">Engineer</option>
+                        <option value="Scientist">Scientist</option>
+                    </select>
+                </div>
+
+                <div class="phone">
+                    <label>Phone :</label><br>
+                    <input type="text" name="country code" value="+1" size="2" id="countryCode" />
+                    <input type="text" name="phone" maxlength="9" size="8" /><br>
+                </div>
+                <div>
+                    <label>Address :</label><br>
+                    <textarea cols="40" rows="5" value="address"></textarea>
+                </div>
+                <div><br>
+                    <input type="submit" value="Submit">
+                </div>
+                <div><input type="reset" value="Clear Form"></div>
+            </form>
+
+            <h1 id="timeout"></h1>
+
+        </div>
+
+    </main>
+
+    <!-- common footer -->
+    <footer id="bottom">
+        <div class="highfooter">
+            <p>Who we are</p>
+            <p>Our Team</p>
+            <p>Disclaimer</p>
+            <p>Customer Service</p>
+            <p>Contact Us</p>
+            <p>Social Media</p>
+            <p>Client</p>
+            <p>Log in/ Sign up</p>
+        </div>
+        <p id="copyrighttext">Copyright &copy; 2022 Royal Banking Incorporation</p>
+    </footer>
+</body>
+
+</html>

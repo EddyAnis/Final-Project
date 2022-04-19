@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+h1 {text-align: center;
+  color: 2E4C6D;
+}
+.header {
+    padding: 2px;
+    background-color: #2E4C6D;
+    margin: 0 auto;
+    color: white;
+    width: auto;
+  }
+  .header p {
+    font-size: 1.5em;
+    font-weight: 600;
+    background: url(images/PHOTO-2022-02-13-10-17-20\ 3.jpg);
+  }
+  .main{
+    max-width:800px;
+    margin: 5vh auto;
+  }
+  .blog-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+  }
+  .article-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .blog-section > h1 {
+    font-size: 45px;
+    margin-left: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: hsl(233, 26%, 24%);
+  }
+  .article {
+    height: max-content;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #fff;
+  }
+   
+  .article > img {
+    width: 250px;
+    height: 250px;
+  }
+  .content {
+    padding: 15px;
+  }
+  .content > p {
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .content > h4 {
+    color: hsl(233, 26%, 24%);
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .footer-container{
+    background: #FC997C;
+    color:#0d3566;
+    height: 300px;   
+    position: relative;
+    padding-bottom: 4rem;
+   }
+   .footer{
+     width: 80%;
+     height: 40vh;
+     display: flex;
+     padding: 25px;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin:0 auto;
+   }
+   .footer-heading{
+     display: flex;
+     flex-direction: column;
+     margin-right: 4rem;
+   }
+   .footer-container .footer-bottom{
+     background: #162058;
+     color: white;
+     width:100%;
+     height: 80px;
+     text-align: center;
+     position: absolute;
+     bottom: 0px;
+     left:0px;
+     padding-top: 20px;
+   }
+   /*** style for header, nav, footer ***/
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #396EB0;
+}
+body {
+  font-size: 100%;
+  /* min-width: 920px; */
+  background-color: white;
+  margin: 0 auto;
+}
+.slider {
+  text-align: center;
+}
+
+/* common style for main */
+/* main {
+  width: 80%;
+  margin: 0 auto;
+}
+main h2 {
+  text-align: center;
+} */
+
+/* =============================================  style for common header */
+.cmnHead {
+  /* border: red solid 2px; */
+  /* padding: 2px; */
+  background-color: #2E4C6D;
+  /* margin: 0 auto; */
+  color: white;
+  /* width: auto; */
+  height: 90px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.cmnHead img {
+  width: 75px;
+  float: left;
+}
+
+.cmnHead p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 100px;
+}
+/* ============================================= style for common header ends */
+
+/* ============================================= Common navigation  */
+#cmnNav {
+  background-color: #DADDFC;
+  padding: 2px;
+  width: auto;
+  font-size: 1em;
+}
+#cmnNav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  height: 2.5em;
+  align-items: center;
+}
+#cmnNav ul ul {
+  display: none;
+
+}
+#cmnNav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* ============================================= Common navigation ends  */
+/* ============================================= Common footer section */
+#bottom{
+  background-image: linear-gradient(#2E4C6D, #06284d);
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 0;
+  padding: 2px;
+}
+.highfooter{
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: grid;
+  border-radius: 15px;
+  grid-template-columns: auto auto auto;
+
+}
+.highfooter p{
+  padding: 5px;
+}
+
+  
+
+/* ============================================= Common footer section ends */
+/* ---------------------------------------|
+|---------mobile view-------------|
+|---------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+}
+  /* body{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      
+  } */
+  /* ============================================= style for common header */
+  /* .cmnHead {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+  } */
+  .cmnHead p {
+      font-size: 1.2em;
+
+  }
+
+
+  /* ============================================= style for common header ends */
+  /* ============================================= Common navigation  */
+  #cmnNav {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      font-size: 1em;
+  }
+  #cmnNav ul {
+      display: grid;
+      grid-template-columns: 100%;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+      text-align: center;
+      height: auto;
+  }
+  #cmnNav ul li{
+      padding: 5px 0;
+      border-bottom: 2px solid #DADDFC;
+      border-radius: 15px;
+  }
+  /* ============================================= Common navigation ends */
+  /* ============================================= footer section */
+  #bottom{
+      padding: 0;
+      margin: 0;
+      background-image: linear-gradient(#2E4C6D, #06284d);
+      text-align: center;
+      color: white;
+
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+  .highfooter{
+      width: 100%;
+      margin: 0;
+      padding: 15px 0;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      border-left: none;
+      border-right: none;
+
+  }
+  .highfooter p{
+      padding: 5px 0;
+      font-size: 12px;
+  }
+  #copyrighttext{
+      font-size: 9px;
+      padding-bottom: 10px;
+  }
+}
+/* ============================================= footer section ends */

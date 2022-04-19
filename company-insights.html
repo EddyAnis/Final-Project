@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Insights - Royal Banking</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./template/temp.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/jaydennsyle.css"> -->
+    <script src="./javascript/company-insights.js" defer></script>
+</head>
+<body>
+    <!-- logo on the left with home link -->
+    <header class="cmnHead">
+        <a href="./index.html"><img src="../images/favicon.jpg" alt="logo" ></a>
+        <p>Royal Banking Incorporation</p>
+    </header>
+    <!-- Common navigation -->
+    <nav id="cmnNav">
+        <ul id="nav">
+            <li><a href="../products-services.html">Products and Services</a>
+                <ul class="submenu1">
+                    <li><a href="../personal-investment.html">Personal Investments</a>
+                        <ul class="submenu2">
+                            <li><a href="../company-insights.html">Company Insights</a></li>
+                            <li><a href="../advisory.html">Buy/Sell Advisory</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../credit-cards.html">Credit Cards</a></li>
+                    <li><a href="../accounts.html">Bank Accounts</a></li>
+                </ul>
+            </li>
+            <li><a href="../about-us.html">About Us</a>
+                <ul class="submenu1">
+                    <li><a href="../our-team.html">Our Team</a></li>
+                </ul>
+            </li>
+            <li><a href="">Contact</a>
+                <ul class="submenu1">
+                    <li><a href="../faq.html">FAQ</a></li>
+                    <li><a href="../contact.html">Contact Us Form</a></li>
+                </ul>
+            </li>
+            <li><a href="">Career</a>
+                <ul class="submenu1">
+                    <li><a href="../job-application.html">Applicants Registration</a></li>
+                    <li><a href="../job-listing.html">Job Listing</a></li>
+                </ul>
+            </li>
+            <li><a href="../login.html">Log in</a></li>
+        </ul>
+    </nav>
+    <!-- Common navigation ends -->
+    <main>
+        <section>
+            <h1>Company Insights</h1>
+        </section>
+        <section class="description">
+            <h2>Microsoft Corporation (MSFT)</h2>
+            <p>Microsoft Corporation is an American multinational technology corporation which produces computer software, consumer electronics, personal computers, and related services. Its best-known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers.</p>
+            <p>Microsoft ranked No. 21 in the 2020 Fortune 500 rankings of the largest United States corporations by total revenue; it was the world's largest software maker by revenue as of 2016.</p>
+        </section>
+        <div class="chart-table">
+            <div>
+                <p>Price Chart</p>
+                <img src="/images/msft-chart.png" alt="" class="pricechart">
+            </div>
+            <div>
+                <figure>
+                    <figcaption>Related Stocks</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="hdr_symbol" scope="col">Symbol</th>
+                                <th id="hdr_last" scope="col">Last</th>
+                                <th id="hdr_bid" scope="col">Bid</th>
+                                <th id="hdr_ask" scope="col">Ask</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td headers="hdr_symbol"><a href="./company-insights.html">MSFT</a></td>
+                                <td headers="hdr_last">279.74</td>
+                                <td headers="hdr_bid">279.63</td>
+                                <td headers="hdr_ask">279.80</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_symbol"><a href="./company-insights.html">SBUX</a></td>
+                                <td headers="hdr_last">82.73</td>
+                                <td headers="hdr_bid">82.70</td>
+                                <td headers="hdr_ask">82.90</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_symbol"><a href="./company-insights.html">MMM</a></td>
+                                <td headers="hdr_last">140.96</td>
+                                <td headers="hdr_bid">140.85</td>
+                                <td headers="hdr_ask">141.61</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </figure>
+            </div>
+        </div>
+        <section>
+            <h2>News and Press Releases</h2>
+            <div class="list-news">
+                <div class="news">
+                    <div>
+                        <img src="./images/msft-news-top.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Microsoft, Apple among top tech stocks to buy amid sell-off: Wedbush</p>
+                        <p>For the vast majority of 2022, tech stocks have been pummeled, due in part to rising interest rates and Russia's invasion of Ukraine resulting in a "risk off" scenario.</p>
+                    </div>
+                </div>
+                <div class="news">
+                    <div>
+                        <img src="./images/msft-news-quit.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>A Microsoft employee quit. Then the company completely broke the rules</p>
+                        <p>How a company reacts to an employee's departure can say a lot about the company.</p>
+                    </div>
+                </div>
+                <div class="news">
+                    <div>
+                        <img src="./images/msft-news-mndt.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Microsoft (MSFT) Considering Possible Deal For Mandiant (MNDT)</p>
+                        <p>Microsoft Considers Pursuing a Deal for Cybersecurity Firm Mandiant</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="forminsight">
+            <h2>Subscribe Company Updates</h2>
+            <form id="subinsight" action="./subscribe-success.html" method="get">
+                <label for="subname">Name: </label>
+                <input type="text" id="subname" maxlength="10" size="15" required><span>*</span>
+                <br>
+                <label for="subemail">E-Mail: </label>
+                <input type="email" id="subemail" required><span>*</span>
+                <br>
+                <input type="submit" id="submit" value="Yes, I want in!">
+            </form>
+        </section>
+    </main>
+
+    <footer id="bottom">
+        <div class="highfooter">
+            <p>Who we are</p>
+            <p>Our Team</p>
+            <p>Disclaimer</p>
+            <p>Customer Service</p>
+            <p>Contact Us</p>
+            <p>Social Media</p>
+            <p>Client</p>
+            <p>Log in/ Sign up</p>
+        </div>
+        <p id="copyrighttext">Copyright &copy; 2022 Royal Banking Incorporation</p>
+    </footer>
+</body>
+</html>

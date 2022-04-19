@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header section==============================================*/
+/* style for common header----- */
+.cmnHead {
+    padding: 2px;
+    background-color: #2E4C6D;
+    margin: 0 auto;
+    color: white;
+    width: auto;
+    height: 7%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.cmnHead p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+/* style for common header ends---- */
+/* sub header ---*/
+.head{
+    font-size: 14px;
+    background-color: #2E4C6D;
+    text-align: right;
+    padding-right: 100px;
+    
+}
+.subhead{
+    display: inline-block;
+}
+.head h5{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#priceOfSensex{
+    margin-right: 50px;
+}
+/* sub header ends ---*/
+/* header section ends============================================ */
+
+
+/* navigation ===================================================*/
+/* Common navigation ---------------------- */
+#cmnNav {
+    background-color: #DADDFC;
+    padding: 2px;
+    width: auto;
+    font-size: 1em;
+}
+#cmnNav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    height: 2.5em;
+    align-items: center;
+}
+#cmnNav ul ul {
+    display: none;
+
+}
+#cmnNav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* Common navigation ends -------------------- */
+/* navigation 2--------------- */
+.nav2{
+    padding-left: 30px;
+    height: 25px;
+}
+.nav2 ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.nav2 li{
+    margin-right: 15px;
+    padding: 0 20px;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+}
+.nav2 li:nth-child(1){
+    border-bottom: 2px solid #4b6f92;
+    padding-bottom: 7px;
+    border-radius: 7px;
+}
+#line{
+    opacity: 20%;
+    border-top: 2px solid #4b6f92;
+    box-shadow: 0px 0px 8px #0f5091;
+}
+/* navigation ends 2---------------- */
+/* navigation 3---------------- */
+.nav3{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.nav3 ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.nav3 li{
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px 20px;
+}
+.nav3 li:nth-child(1){
+background-color: rgb(80, 77, 77);
+color: white;
+}
+#line2{
+    width: 70%;
+    border-top: 20px solid rgb(80, 77, 77);
+    margin: 0 auto;
+}
+/* navigation ends 3---------------- */
+/* navigation ends ===============================================*/
+
+
+/* Main section ===================================================*/
+/* table ------------------------------*/
+.hideTable{
+    /* visibility: hidden; */
+}
+.dataTable{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(250, 250, 250);
+    column-gap: 40px;
+    margin-bottom: 100px;
+    overflow-x:auto;
+}
+.dataTable th{
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: solid black 1px;
+    border-color: black;
+    color: gray;
+    padding: 10px;
+}
+.colName{
+    background-color: rgb(218, 218, 218);
+}
+.starImage{
+    width: 50px;
+}
+.dataTable td{
+    padding: 10px 20px;
+}
+.dataTable td:nth-child(3){
+    color: #3366d6;
+    font-weight: bold;
+}
+.buybtn{
+    width: 50px;
+    background-color: #3366d6;
+    color: white;
+    border: none;
+    padding: 2px 10px 2px 10px;
+    text-align: center;
+    align-items: center;
+}
+/* table ends --------------------*/
+/* Main section ends ===============================================*/
+
+
+/* footer section ===============================================*/
+#bottom{
+    background-image: linear-gradient(#2E4C6D, #06284d);
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+.highfooter{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: auto auto auto;
+
+}
+.highfooter p{
+    padding: 5px;
+}
+/* footer section ends ===============================================*/
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* for mobile view */
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+/* header section==============================================*/
+/* style for common header----- */
+.cmnHead {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.cmnHead p {
+    font-size: 1.2em;
+    padding: 20px;
+}
+/* style for common header ends---- */
+/* sub header ---*/
+.head{
+    width: 100%;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.subhead{
+    padding-right: 20px;
+}
+.head h5{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#priceOfSensex{
+    margin-right: 0;
+}
+/* sub header ends ---*/
+/* header section ends============================================ */
+
+/* navigation ===================================================*/
+/* Common navigation ---------------------- */
+#cmnNav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1em;
+}
+#cmnNav ul {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+#cmnNav ul li{
+    padding: 5px 0;
+    border-bottom: 2px solid rgb(121, 128, 184);
+    border-radius: 15px;
+}
+/* Common navigation ends -------------------- */
+/* navigation 2--------------- */
+.nav2{
+    padding: 0;
+    margin: 0;
+}
+.nav2 ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.nav2 li{
+    margin-right: 0;
+    font-size: 12px;
+}
+/* navigation ends 2---------------- */
+/* navigation 3---------------- */
+.nav3{
+    width: 100%;
+
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.nav3 ul{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.nav3 li{
+    margin-right: 0;
+    padding: 10px 0;
+}
+#line2{
+    width: 100%;
+}
+/* navigation ends 3---------------- */
+/* navigation ends ===============================================*/
+
+/* Main section ===================================================*/
+main{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* table ------------------------------*/
+.hideTable{
+    /* visibility: hidden; */
+    overflow-x: auto;
+}
+.dataTable{
+    width: 100%;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+/* table ends --------------------*/
+/* Main section ends ===============================================*/
+
+
+/* footer section ===============================================*/
+#bottom{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#2E4C6D, #06284d);
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+.highfooter{
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-left: none;
+    border-right: none;
+
+}
+.highfooter p{
+    padding: 5px 0;
+    font-size: 12px;
+}
+#copyrighttext{
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+/* footer section ends ===============================================*/
+}

@@ -1,0 +1,39 @@
+ {"stock":
+    [
+        {
+            "company":"MSFT",
+            "price":"$230.56",
+            "advisory":"Strong Buy"
+        },
+        {
+            "company":"GOOGL",
+            "price": "$2,597.41",
+            "advisory":"Strong Buy"
+        },
+        {
+            "company":"AAPL",
+            "price":"$154.73",
+            "advisory":"Buy"
+        },
+        {
+            "company":"SUBX",
+            "price":"$82.73",
+            "advisory":"Sell"
+        },
+        {
+            "company":"HD",
+            "price":"$316.79",
+            "advisory":"Neutral"
+        },
+        {
+            "company":"MMM",
+            "price":"$140.96",
+            "advisory":"Strong Sell"
+        },
+        {
+            "company":"COST",
+            "price":"$527.42",
+            "advisory":"Neutral"
+        }
+    ]
+}

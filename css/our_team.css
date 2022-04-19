@@ -1,0 +1,406 @@
+.who-we-are{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.who-we-are span{
+	width: 60%;
+	align-items: center;
+text-align: center;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+body{
+    font-family: 'lato', sans-serif;
+    color: #454545;
+    font-weight: 300;
+    background: #ffffff;
+}
+a{
+    color: #333333;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover,
+a:focus{
+    outline: none;
+    text-decoration: none;
+}
+p{
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #454545;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h5,
+h6{
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #333333;
+    font-weight: 700;
+}
+h4{padding: 0;
+    margin: 0 0 15px 0;
+    color: #333333;
+    font-weight: 5
+    0;
+ }
+
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    text-align: center;
+}
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 5px;
+    position: relative;
+}
+.section-title h1::before{
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 3px;
+    right: 32%;
+    background-color: #50c5fc;
+    bottom: -5px;
+
+}
+.container .section-title h1::before{
+    left: 30%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.column{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.team{
+    margin-bottom:30px ;
+}
+.team .team-img{
+    position: relative;
+    font-size: 0;
+    text-align: center;
+}
+.team .team-img img{
+    width: 160px;
+    height: auto;
+    border-radius: 100%;
+    border: 20px solid #f3f4fa;
+}
+
+.team .team-content{
+    padding: 80px 20px 20px 20px;
+    margin-top: -80px;
+    text-align: center;
+    background: #f3f4fa;
+    border-radius: 10px;
+}
+.team .team-content h2{
+font-size: 25px;
+font-weight: 400;
+letter-spacing: 2px;
+}
+.team .team-content h3{
+    font-size: 16px;
+    font-weight: 300;
+}
+.team .team-content h4{
+    font-size: 16px;
+font-weight: 200;
+letter-spacing: 1px;
+font-style: italic;
+margin-bottom: 0;
+}
+.team .team-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+
+
+
+/*  Responsive */
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+    .column{
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+    .column{
+        max-width: 33.333333%;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+    .column{
+        max-width: 25%;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+   
+}
+header {
+    padding: 2px;
+    background-color: #2E4C6D;
+    margin: 0 auto;
+    color: white;
+    width: auto;
+}
+
+header p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* style for navigation bar */
+nav {
+    background-color: #DADDFC;
+    padding: 2px;
+    width: auto;
+    font-size: 1em;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    height: 2.5em;
+    align-items: center;
+}
+nav ul ul {
+    display: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*** style for header, nav, footer ***/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #396EB0;
+}
+
+/* common style for main */
+/* main {
+    width: 80%;
+    margin: 0 auto;
+}
+main h2 {
+    text-align: center;
+} */
+
+/* =============================================  style for common header */
+.cmnHead {
+    /* border: red solid 2px; */
+    /* padding: 2px; */
+    background-color: #2E4C6D;
+    /* margin: 0 auto; */
+    color: white;
+    /* width: auto; */
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.cmnHead img {
+    width: 75px;
+    float: left;
+}
+
+.cmnHead p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 100px;
+}
+/* ============================================= style for common header ends */
+
+/* ============================================= Common navigation  */
+#cmnNav {
+    background-color: #DADDFC;
+    padding: 2px;
+    width: auto;
+    font-size: 1em;
+}
+#cmnNav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    height: 2.5em;
+    align-items: center;
+}
+#cmnNav ul ul {
+    display: none;
+
+}
+#cmnNav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* ============================================= Common navigation ends  */
+/* ============================================= Common footer section */
+#bottom{
+    background-image: linear-gradient(#2E4C6D, #06284d);
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 0;
+    padding: 2px;
+}
+.highfooter{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: auto auto auto;
+
+}
+.highfooter p{
+    padding: 5px;
+}
+/* ============================================= Common footer section ends */
+
+
+
+
+/* ---------------------------------------|
+|---------mobile view-------------|
+|---------------------------------------- */
+@media only screen and (max-width: 600px) {
+    /* body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    } */
+    /* ============================================= style for common header */
+    /* .cmnHead {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    } */
+    .cmnHead p {
+        font-size: 1.2em;
+
+    }
+
+
+    /* ============================================= style for common header ends */
+    /* ============================================= Common navigation  */
+    #cmnNav {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        font-size: 1em;
+    }
+    #cmnNav ul {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+    #cmnNav ul li{
+        padding: 5px 0;
+        border-bottom: 2px solid rgb(121, 128, 184);
+        border-radius: 15px;
+    }
+    /* ============================================= Common navigation ends */
+    /* ============================================= footer section */
+    #bottom{
+        padding: 0;
+        margin: 0;
+        background-image: linear-gradient(#2E4C6D, #06284d);
+        text-align: center;
+        color: white;
+
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .highfooter{
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border-left: none;
+        border-right: none;
+
+    }
+    .highfooter p{
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    #copyrighttext{
+        font-size: 9px;
+        padding-bottom: 10px;
+    }
+}
+/* ============================================= footer section ends */
+

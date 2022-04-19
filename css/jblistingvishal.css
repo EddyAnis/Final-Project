@@ -1,0 +1,18 @@
+body {
+    background-image: url("/images/joblistingfinal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: rgb(1, 1, 29);
+}
+
+.button1 {
+    display: inline-block;
+    width: 100;
+    background-color: #5467ad;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+
+}

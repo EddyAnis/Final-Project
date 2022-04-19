@@ -1,0 +1,316 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: rgb(233, 97, 97);
+}
+.cmnHead {
+  padding: 2px;
+  background-color: #2E4C6D;
+  margin: 0 auto;
+  color: white;
+  width: auto;
+  height: 7%;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.cmnHead p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+#cmnNav {
+background-color: #DADDFC;
+padding: 2px;
+width: auto;
+font-size: 1em;
+}
+#cmnNav ul {
+list-style-type: none;
+display: flex;
+padding: 0;
+margin: 0;
+justify-content: space-around;
+height: 2.5em;
+align-items: center;
+}
+#cmnNav ul ul {
+display: none;
+
+}
+#cmnNav ul li a {
+text-decoration: none;
+color: black;
+}
+body{
+  background: url("../images/sunclif.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+body {
+  font-size: 100%;
+  /* min-width: 920px; */
+  background-color: white;
+}
+
+form{
+  background: rgba(32, 34, 36, 0.8);
+  width: 640px;
+  margin: 50px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 55px 30px;
+}
+
+form .title h2{
+  letter-spacing: 6px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+form .title h3{
+  letter-spacing: 4px;
+  
+}
+form .half .item{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 15px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+  background-color: antiquewhite;
+}
+
+form .full textarea{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+  border-bottom: 1px solid rgb(245, 76, 104);
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+form .action input[type="submit"]{
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+ /*** style for header, nav, footer ***/
+
+ html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #396EB0;
+}
+body {
+  font-size: 100%;
+  /* min-width: 920px; */
+  background-color: white;
+  margin: 0 auto;
+}
+
+/* common style for main */
+/* main {
+  width: 80%;
+  margin: 0 auto;
+}
+main h2 {
+  text-align: center;
+} */
+
+/* =============================================  style for common header */
+.cmnHead {
+  /* border: red solid 2px; */
+  /* padding: 2px; */
+  background-color: #2E4C6D;
+  /* margin: 0 auto; */
+  color: white;
+  /* width: auto; */
+  height: 90px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.cmnHead img {
+  width: 75px;
+  float: left;
+}
+
+.cmnHead p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 100px;
+}
+/* ============================================= style for common header ends */
+
+/* ============================================= Common navigation  */
+#cmnNav {
+  background-color: #DADDFC;
+  padding: 2px;
+  width: auto;
+  font-size: 1em;
+}
+#cmnNav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  height: 2.5em;
+  align-items: center;
+}
+#cmnNav ul ul {
+  display: none;
+
+}
+#cmnNav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* ============================================= Common navigation ends  */
+/* ============================================= Common footer section */
+#bottom{
+  background-image: linear-gradient(#2E4C6D, #06284d);
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 0;
+  padding: 2px;
+}
+.highfooter{
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: grid;
+  border-radius: 15px;
+  grid-template-columns: auto auto auto;
+
+}
+.highfooter p{
+  padding: 5px;
+}
+/* ============================================= Common footer section ends */
+
+/* ---------------------------------------|
+|---------mobile view-------------|
+|---------------------------------------- */
+@media only screen and (max-width: 600px) {
+  /* body{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      
+  } */
+  /* ============================================= style for common header */
+  /* .cmnHead {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+  } */
+  .cmnHead p {
+      font-size: 1.2em;
+
+  }
+
+  /* ============================================= style for common header ends */
+  /* ============================================= Common navigation  */
+  #cmnNav {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      font-size: 1em;
+  }
+  #cmnNav ul {
+      display: grid;
+      grid-template-columns: 100%;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+      text-align: center;
+      height: auto;
+  }
+  #cmnNav ul li{
+      padding: 5px 0;
+      border-bottom: 2px solid #DADDFC;
+      border-radius: 15px;
+  }
+  /* ============================================= Common navigation ends */
+  /* ============================================= footer section */
+  #bottom{
+      padding: 0;
+      margin: 0;
+      background-image: linear-gradient(#2E4C6D, #06284d);
+      text-align: center;
+      color: white;
+
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+  .highfooter{
+      width: 100%;
+      margin: 0;
+      padding: 15px 0;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      border-left: none;
+      border-right: none;
+
+  }
+  .highfooter p{
+      padding: 5px 0;
+      font-size: 12px;
+  }
+  #copyrighttext{
+      font-size: 9px;
+      padding-bottom: 10px;
+  }
+}
+/* ============================================= footer section ends */

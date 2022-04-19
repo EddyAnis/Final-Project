@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Group common */
+/* style for common header----- */
+.cmnHead {
+    padding: 2px;
+    background-color: #2E4C6D;
+    margin: 0 auto;
+    color: white;
+    width: auto;
+    height: 7%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.cmnHead p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+/* Common navigation ---------------------- */
+#cmnNav {
+    background-color: #DADDFC;
+    padding: 2px;
+    width: auto;
+    font-size: 1em;
+}
+#cmnNav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    height: 2.5em;
+    align-items: center;
+}
+#cmnNav ul ul {
+    display: none;
+
+}
+#cmnNav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* Common navigation ends -------------------- */
+/* footer section ===============================================*/
+#bottom{
+    background-image: linear-gradient(#2E4C6D, #06284d);
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top: 20px;
+  }
+.highfooter{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: auto auto auto;
+
+}
+.highfooter p{
+    padding: 5px;
+}
+/* footer section ends ===============================================*/
+  /* Group common ends */
+
+#m1{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 570px;
+}
+#signOutBtn{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    background: #06284d;
+    color: white;
+    margin-left: 30px;
+}
+
+/* Icons */
+  .iconList{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: 50px;
+  }
+  .iconList ul{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  .iconList ul li{
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      background: #06284d;
+      border-radius: 100%;
+      margin: 0 10px;
+  }
+  .iconList ul li a{
+    display: block;
+    color: #fff;
+    font-size: 50px;
+  }
+  .iconList ul li a i{
+    line-height: 100px;
+  }
+  /* .iconList ul li:nth-child(1){
+    background: #06284d;
+  } */
+  /* Icon ends ---------*/
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+#accountsTbl table{
+    border-left: 5px solid green;
+}
+tr{
+    border-top: 1px solid black;
+}
+td, th{
+    padding: 10px;
+}
+td:nth-child(2){
+    float: right;
+}
+#sort{
+    margin-left: 500px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#sortIcon{
+    margin-top: 20px;
+}
+#insightDiv{
+    margin-bottom: 20px;
+}
+#getStartedbtn{
+    background-color: white;
+    color: red;
+    padding: 10px 20px;
+    width: 50%;
+    margin-left: 200px;
+}
+#savingGoalsbtn{
+    background-color: white;
+    color: red;
+    padding: 10px 20px;
+    width: 50%;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* for mobile view */
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+/* header section==============================================*/
+/* style for common header----- */
+.cmnHead {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.cmnHead p {
+    font-size: 1.2em;
+    padding: 20px;
+}
+/* style for common header ends---- */
+
+/* header section ends============================================ */
+
+/* navigation ===================================================*/
+/* Common navigation ---------------------- */
+#cmnNav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1em;
+}
+#cmnNav ul {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+#cmnNav ul li{
+    padding: 5px 0;
+    border-bottom: 2px solid rgb(121, 128, 184);
+    border-radius: 15px;
+}
+/* Common navigation ends -------------------- */
+
+/* Main section ===================================================*/
+main{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* table ------------------------------*/
+
+.dataTable{
+    width: 100%;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+/* table ends --------------------*/
+/* Main section ends ===============================================*/
+
+
+/* footer section ===============================================*/
+#bottom{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#2E4C6D, #06284d);
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+.highfooter{
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-left: none;
+    border-right: none;
+
+}
+.highfooter p{
+    padding: 5px 0;
+    font-size: 12px;
+}
+#copyrighttext{
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+/* footer section ends ===============================================*/
+}
+
+  

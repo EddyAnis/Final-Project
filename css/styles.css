@@ -1,0 +1,363 @@
+/* overall style for main */
+
+.hometitle {
+    font-size: 230%;
+}
+h2 {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+/* common style for main */
+/* this should be in temp.css but others don't know how to use this */
+/* so I move it back to my pages only */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* style for explore all jobs button */
+/* style for learn more information security button */
+.horizonal-long-button {
+    /* border: #396EB0 2px solid; */
+    text-align: center;
+    font-size: 120%;
+    margin: 30px auto;
+    display: block;
+    background-color: #396EB0;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    width: auto;
+    
+}
+
+/* ---------------------------------------------------------|
+|------------------------navigatoin menu--------------------|
+|---------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------|
+|------------------------homepage---------------------------|
+|---------------------------------------------------------- */
+
+/* style for banner section*/
+.banner {
+    /* border: #396EB0 2px dashed; */
+    background-color: #f7997c;
+    text-align: center;
+    height: 200px;
+    margin-top: 2em;
+    padding: 50px;
+}
+.banner p {
+    font-size: 120%;
+}
+.banner a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #396EB0;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 120%;
+    border-radius: 10px;
+}
+
+
+/* style for product card section */
+.container {
+    /* border: 2px orange solid; */
+    display: grid;
+    grid-template: 320px / repeat(3, 300px);
+    justify-content: space-around;
+    gap: 25px 15px;
+}
+
+.card {
+    /* margin: 15px; */
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: 25px auto;
+}
+
+.card a {
+    display: block;
+    background-color: #396EB0;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+/* style for about us section*/
+.aboutus {
+    /* border: orange 2px solid; */
+    display: grid;
+    grid-template: 350px / 500px 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.aboutus img {
+    /* border: red 2px solid; */
+    width: 100%;
+}
+
+.aboutus2 {
+    /* align-self: center; */
+    padding: 50px;
+}
+
+
+
+/* style for job opportunities section */
+.joblist {
+    /* border: red 2px solid; */
+    display: grid;
+    grid-template: 100px / repeat(3, 1fr);
+    /* justify-content: space-between; */
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 25px 5px;
+    
+}
+
+.joblist div {
+    /* border: #2e4c6d 2px solid; */
+    text-align: center;
+    /* margin: 5px; */
+    /* padding: 5px; */
+    width: 100%;
+    height: 100%;
+    background-color: #daddfc;
+    padding-top: 1em;
+    border-radius: 8px;
+}
+
+.joblist a {
+    text-decoration: none;
+    border: #2e4c6d 2px solid;
+    padding: 5px;
+    line-height: 1.5em;
+    color: #2e4c6d;
+    border-radius: 10px;
+}
+
+
+
+/* --------------------------------------------------------|
+|--------------------company-insight-----------------------|
+|--------------------------------------------------------- */
+
+/* style for company description */
+.description {
+    line-height: 1.3em;
+}
+
+/* add grid layout for price chart and table */
+.chart-table {
+    display: grid;
+    grid-template: 400px / 2fr 1fr;
+    /* test */
+    /* border: #396EB0 2px dashed;  */
+}
+
+/* style for price chart and table*/
+.chart-table p, figcaption {
+    font-weight: 600;
+}
+
+/* style for price chart img */
+.chart-table img {
+    width: 100%;
+    /* test */
+    /* border: #f7997c 2px solid;  */
+}
+
+/* style for the table */
+.chart-table table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.chart-table table th, .chart-table table td {
+    border-bottom: 1px solid darkgrey;
+    padding: .25em;
+    text-align: right;
+    font-size: 90%;
+}
+
+.chart-table td:nth-child(1) {
+    text-align: left;
+}
+
+.chart-table table a {
+    text-decoration: none;
+    color: #396EB0;
+}
+
+/* add grid layout for news list */
+.news {
+    display: grid;
+    grid-template: auto / 1fr 4fr;
+    align-content: center;
+} 
+
+/* style for news list */
+.news div img {
+    width: 100%;
+}
+
+.news div {
+    padding: .5em;
+    /* test */
+    /* border: #f7997c 2px solid; */
+}
+
+.news div p:nth-child(1) {
+    font-weight: 600;
+}
+
+
+/* --------------------------------------------------------|
+|------------------personal investment---------------------|
+|--------------------------------------------------------- */
+
+/* add grid layout to company insight section*/
+.list-company {
+    display: grid;
+    grid-template: auto / repeat(4, 1fr);
+}
+
+/* style for the small box card */
+.list-company .small-box {
+    border: #2e4c6d 2px solid;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.list-company a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #396EB0;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* style for form on company-insight page */
+.forminsight form {
+    font-weight: 500;
+    border-top: dashed 2px #396EB0;
+    border-bottom: dashed 2px #396EB0;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.forminsight #submit {
+    font-size: 120%;
+    margin-top: 25px;
+    background-color: #f7997c;
+}
+
+
+/* style for subscribe success page */
+.subsuccess {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* style for screen width less than 920px */
+@media only screen and (max-width: 920px) {
+
+    /* general */
+    h1 {
+        font-size: 150%;
+    }
+
+    /* style for banner */
+    .banner {
+        height: auto;
+    }   
+
+    .banner p {
+        font-size: 100%;
+    }
+
+    /* mobile style for our products */
+    .container {
+        display: grid;
+        grid-template: repeat(3, 350px) / 320px;
+    }
+
+    /* mobile style for about us */
+    .aboutus {
+        display: grid;
+        grid-template: 200px 200px / 320px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .aboutus2 {
+        width: 100%;
+    }
+
+    /* mobile style for job opportunities */
+    .joblist {
+        /* border: orange 2px solid; */
+        display: grid;
+        grid-template: repeat(3, 120px) / 320px;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* mobile style for personal investment page*/
+    .list-company {
+        display: grid;
+        grid-template: auto / repeat(2, 1fr);
+    }
+
+    /* mobile stype for company insights page */
+    /* change grid layout for price chart and table */
+    .chart-table {
+        grid-template: auto / 1fr;
+        /* test */
+        /* border: #396EB0 2px dashed;  */
+    }
+
+    /* change for the table */
+    .chart-table figure {
+        margin-left: 0;
+    }
+
+    /* change grid layout for news list */
+    .news {
+        grid-template: auto / 1fr;
+    } 
+
+}
